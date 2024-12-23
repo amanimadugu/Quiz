@@ -1,0 +1,84 @@
+.container {
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 40px 50px;
+    padding: 40px 50px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707077;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.container ul li:hover {
+    background: #f0f0f0;
+}
+
+.container button {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container button:hover {
+    background: #3d2b6e;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+/* Selected option style (blue background) */
+.container ul li.selected {
+    background-color: #007bff;  /* Blue color */
+    border-color: #006bb3;  /* Darker blue for the border */
+    color: white;  /* White text */
+}
+
+/* Correct answer style */
+.container.correct {
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+/* Wrong answer style */
+.container.wrong {
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+}
+.ammu{
+    background:linear-gradient(45deg, #8a2be2, #32cd32);
+}
